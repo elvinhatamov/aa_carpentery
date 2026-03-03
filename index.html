@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AA Carpentry – Premium custom woodworking, cabinetry, and renovation services across Canada. Craftsmanship you can trust." />
+  <meta name="keywords" content="carpentry, custom cabinets, woodworking, renovation, flooring, Canada" />
+  <title>AA Carpentry | Premium Custom Woodworking &amp; Renovation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="AA Carpentry home">
+        <span class="logo__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="36" height="36" rx="4" fill="#8B5E3C"/>
+            <path d="M8 26L18 10L28 26" stroke="#F5ECD7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 20H24" stroke="#F5ECD7" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo__text">AA <strong>Carpentry</strong></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav__list" role="list">
+          <li><a href="#home"        class="nav__link">Home</a></li>
+          <li><a href="#services"    class="nav__link">Services</a></li>
+          <li><a href="#about"       class="nav__link">About</a></li>
+          <li><a href="#portfolio"   class="nav__link">Portfolio</a></li>
+          <li><a href="#testimonials" class="nav__link">Reviews</a></li>
+          <li><a href="#contact"     class="nav__link nav__link--cta">Get a Quote</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow">Trusted Craftsmen Since 2005</p>
+      <h1 class="hero__title">Timeless Woodwork,<br /><span>Built to Last</span></h1>
+      <p class="hero__desc">Custom cabinetry, furniture, flooring &amp; full renovations crafted with precision and passion across Canada.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Get a Free Quote</a>
+        <a href="#portfolio" class="btn btn--ghost">View Our Work</a>
+      </div>
+      <div class="hero__stats" aria-label="Key statistics">
+        <div class="stat">
+          <span class="stat__number" data-target="500">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">Projects Completed</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="19">0</span><span class="stat__suffix">+</span>
+          <span class="stat__label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number" data-target="98">0</span><span class="stat__suffix">%</span>
+          <span class="stat__label">Client Satisfaction</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">What We Do</p>
+        <h2 class="section__title">Our Services</h2>
+        <p class="section__subtitle">From concept to completion, we deliver exceptional craftsmanship tailored to your vision.</p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 32V14L20 8L35 14V32" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="14" y="20" width="12" height="12" rx="1" stroke="currentColor" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Custom Cabinetry</h3>
+          <p class="service-card__desc">Kitchen, bathroom, and built-in cabinets designed and crafted to fit your exact space and style.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="5" y="10" width="30" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M5 18H35M14 10V30M26 10V30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Hardwood Flooring</h3>
+          <p class="service-card__desc">Supply, installation, sanding, and finishing of premium hardwood and engineered flooring systems.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 32V15M20 32V8M30 32V20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M5 32H35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Stairs &amp; Railings</h3>
+          <p class="service-card__desc">Elegant staircases and railings that become the centrepiece of your home, built for beauty and safety.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="24" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 16H32M16 8V32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Custom Furniture</h3>
+          <p class="service-card__desc">Bespoke tables, shelving, entertainment units, and bedroom furniture crafted to your specifications.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 34L14 20L20 28L26 16L34 34" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 34H34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Home Renovations</h3>
+          <p class="service-card__desc">Complete interior renovation packages—kitchens, bathrooms, basements—managed from start to finish.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 14V20L24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Repairs &amp; Restoration</h3>
+          <p class="service-card__desc">Skilled repair and restoration of existing woodwork, cabinets, doors, trim, and more.</p>
+          <a href="#contact" class="service-card__link">Learn more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container about__inner">
+      <div class="about__visual" aria-hidden="true">
+        <div class="about__img-wrap">
+          <div class="about__img about__img--main"></div>
+          <div class="about__img about__img--accent"></div>
+        </div>
+        <div class="about__badge">
+          <span class="about__badge-num">19</span>
+          <span class="about__badge-txt">Years of<br/>Excellence</span>
+        </div>
+      </div>
+
+      <div class="about__content">
+        <p class="section__eyebrow">Our Story</p>
+        <h2 class="section__title section__title--left">Passion for Craft,<br />Pride in Every Joint</h2>
+        <p class="about__text">Founded in 2005, AA Carpentry has grown from a one-man shop into a full-service woodworking and renovation company serving homeowners and contractors across Canada. Every project—no matter the size—receives the same dedication to quality, detail, and client satisfaction.</p>
+        <p class="about__text">We source the finest sustainable hardwoods and use both traditional joinery techniques and modern precision tools to deliver results that stand the test of time.</p>
+
+        <ul class="about__features" role="list">
+          <li class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true">✓</span>
+            Licensed &amp; fully insured
+          </li>
+          <li class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true">✓</span>
+            Free in-home consultations
+          </li>
+          <li class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true">✓</span>
+            5-year craftsmanship warranty
+          </li>
+          <li class="about__feature">
+            <span class="about__feature-icon" aria-hidden="true">✓</span>
+            Eco-friendly materials available
+          </li>
+        </ul>
+
+        <a href="#contact" class="btn btn--primary">Work With Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="section process">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">How It Works</p>
+        <h2 class="section__title">Our Simple Process</h2>
+      </div>
+      <ol class="process__steps" role="list">
+        <li class="process__step">
+          <span class="process__step-num" aria-hidden="true">01</span>
+          <h3 class="process__step-title">Consultation</h3>
+          <p class="process__step-desc">We visit your home, listen to your vision, assess the space, and discuss materials and budget.</p>
+        </li>
+        <li class="process__step">
+          <span class="process__step-num" aria-hidden="true">02</span>
+          <h3 class="process__step-title">Design &amp; Quote</h3>
+          <p class="process__step-desc">We create detailed drawings and a transparent, itemised quote—no surprises, no hidden fees.</p>
+        </li>
+        <li class="process__step">
+          <span class="process__step-num" aria-hidden="true">03</span>
+          <h3 class="process__step-title">Crafting</h3>
+          <p class="process__step-desc">Our craftsmen build your project in our workshop with meticulous care and quality control.</p>
+        </li>
+        <li class="process__step">
+          <span class="process__step-num" aria-hidden="true">04</span>
+          <h3 class="process__step-title">Installation</h3>
+          <p class="process__step-desc">We install your finished piece, clean up completely, and walk you through everything before we leave.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Our Work</p>
+        <h2 class="section__title">Recent Projects</h2>
+        <p class="section__subtitle">A glimpse at what our craftsmen have created for happy clients.</p>
+      </div>
+
+      <div class="portfolio__filters" role="group" aria-label="Portfolio filter">
+        <button class="portfolio__filter portfolio__filter--active" data-filter="all">All</button>
+        <button class="portfolio__filter" data-filter="cabinetry">Cabinetry</button>
+        <button class="portfolio__filter" data-filter="flooring">Flooring</button>
+        <button class="portfolio__filter" data-filter="furniture">Furniture</button>
+        <button class="portfolio__filter" data-filter="stairs">Stairs</button>
+      </div>
+
+      <div class="portfolio__grid">
+        <article class="portfolio__item" data-category="cabinetry">
+          <div class="portfolio__img portfolio__img--1"></div>
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__title">White Shaker Kitchen</h3>
+            <p class="portfolio__cat">Custom Cabinetry</p>
+          </div>
+        </article>
+        <article class="portfolio__item" data-category="flooring">
+          <div class="portfolio__img portfolio__img--2"></div>
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__title">White Oak Wide Plank</h3>
+            <p class="portfolio__cat">Hardwood Flooring</p>
+          </div>
+        </article>
+        <article class="portfolio__item" data-category="stairs">
+          <div class="portfolio__img portfolio__img--3"></div>
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__title">Open-Riser Staircase</h3>
+            <p class="portfolio__cat">Stairs &amp; Railings</p>
+          </div>
+        </article>
+        <article class="portfolio__item" data-category="furniture">
+          <div class="portfolio__img portfolio__img--4"></div>
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__title">Live-Edge Dining Table</h3>
+            <p class="portfolio__cat">Custom Furniture</p>
+          </div>
+        </article>
+        <article class="portfolio__item" data-category="cabinetry">
+          <div class="portfolio__img portfolio__img--5"></div>
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__title">Dark Walnut Bathroom</h3>
+            <p class="portfolio__cat">Custom Cabinetry</p>
+          </div>
+        </article>
+        <article class="portfolio__item" data-category="furniture">
+          <div class="portfolio__img portfolio__img--6"></div>
+          <div class="portfolio__overlay">
+            <h3 class="portfolio__title">Built-In Library Wall</h3>
+            <p class="portfolio__cat">Custom Furniture</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Client Reviews</p>
+        <h2 class="section__title">What Our Clients Say</h2>
+      </div>
+
+      <div class="testimonials__track" id="testimonialTrack" aria-live="polite">
+        <div class="testimonial" role="group" aria-label="Testimonial 1 of 4">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote class="testimonial__text">"AA Carpentry transformed our dated kitchen into something out of a magazine. The attention to detail is second to none—every drawer closes perfectly, every cabinet is plumb. Worth every penny."</blockquote>
+          <footer class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--1" aria-hidden="true"></div>
+            <div>
+              <cite class="testimonial__name">Sarah &amp; Mark T.</cite>
+              <p class="testimonial__location">Toronto, ON</p>
+            </div>
+          </footer>
+        </div>
+
+        <div class="testimonial" role="group" aria-label="Testimonial 2 of 4">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote class="testimonial__text">"We had AA Carpentry install hardwood throughout our entire main floor. The finish is flawless, the crew was respectful, and they finished two days ahead of schedule. Highly recommend!"</blockquote>
+          <footer class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--2" aria-hidden="true"></div>
+            <div>
+              <cite class="testimonial__name">James L.</cite>
+              <p class="testimonial__location">Mississauga, ON</p>
+            </div>
+          </footer>
+        </div>
+
+        <div class="testimonial" role="group" aria-label="Testimonial 3 of 4">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote class="testimonial__text">"The custom staircase AA Carpentry built for us is absolutely stunning. Our guests always comment on it. Professional, punctual, and genuinely passionate about their craft."</blockquote>
+          <footer class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--3" aria-hidden="true"></div>
+            <div>
+              <cite class="testimonial__name">Priya N.</cite>
+              <p class="testimonial__location">Vaughan, ON</p>
+            </div>
+          </footer>
+        </div>
+
+        <div class="testimonial" role="group" aria-label="Testimonial 4 of 4">
+          <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <blockquote class="testimonial__text">"From the first consultation to the final walkthrough, the AA Carpentry team was outstanding. Our live-edge dining table is a true work of art. We are beyond thrilled."</blockquote>
+          <footer class="testimonial__author">
+            <div class="testimonial__avatar testimonial__avatar--4" aria-hidden="true"></div>
+            <div>
+              <cite class="testimonial__name">David &amp; Chen F.</cite>
+              <p class="testimonial__location">Oakville, ON</p>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+      <div class="testimonials__controls" aria-label="Testimonial navigation">
+        <button class="testimonials__btn" id="prevBtn" aria-label="Previous testimonial">&#8592;</button>
+        <div class="testimonials__dots" id="testimonialDots" role="tablist" aria-label="Testimonial indicators"></div>
+        <button class="testimonials__btn" id="nextBtn" aria-label="Next testimonial">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" aria-label="Call to action">
+    <div class="container cta-banner__inner">
+      <div class="cta-banner__text">
+        <h2 class="cta-banner__title">Ready to Start Your Project?</h2>
+        <p class="cta-banner__subtitle">Get a free, no-obligation consultation and quote today.</p>
+      </div>
+      <a href="#contact" class="btn btn--light">Book a Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container contact__inner">
+      <div class="contact__info">
+        <p class="section__eyebrow">Get In Touch</p>
+        <h2 class="section__title section__title--left">Let's Build Something<br/>Beautiful Together</h2>
+        <p class="contact__desc">Tell us about your project and we'll get back to you within one business day with a free quote.</p>
+
+        <ul class="contact__details" role="list">
+          <li class="contact__detail">
+            <span class="contact__detail-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 2C7.24 2 5 4.24 5 7c0 4.25 5 11 5 11s5-6.75 5-11c0-2.76-2.24-5-5-5zm0 6.5a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span>Serving the Greater Toronto Area &amp; Ontario</span>
+          </li>
+          <li class="contact__detail">
+            <span class="contact__detail-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 5.5A1.5 1.5 0 013.5 4h13A1.5 1.5 0 0118 5.5v9a1.5 1.5 0 01-1.5 1.5h-13A1.5 1.5 0 012 14.5v-9zM3.5 5.5L10 10l6.5-4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <a href="mailto:info@aacarpentry.ca">info@aacarpentry.ca</a>
+          </li>
+          <li class="contact__detail">
+            <span class="contact__detail-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.5 4h3l1.5 4-2 1.5a10 10 0 004.5 4.5L12 12l4 1.5v3A1.5 1.5 0 0114.5 18 13 13 0 012 5.5 1.5 1.5 0 013.5 4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <a href="tel:+14165550123">(416) 555-0123</a>
+          </li>
+        </ul>
+
+        <div class="contact__hours">
+          <strong>Business Hours</strong>
+          <p>Monday – Friday: 8:00 am – 6:00 pm</p>
+          <p>Saturday: 9:00 am – 3:00 pm</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
+
+      <form class="contact__form" id="contactForm" novalidate aria-label="Contact form">
+        <div class="form__row">
+          <div class="form__group">
+            <label class="form__label" for="firstName">First Name <span aria-hidden="true">*</span></label>
+            <input class="form__input" type="text" id="firstName" name="firstName" required autocomplete="given-name" placeholder="John" />
+            <span class="form__error" id="firstNameError" role="alert"></span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="lastName">Last Name <span aria-hidden="true">*</span></label>
+            <input class="form__input" type="text" id="lastName" name="lastName" required autocomplete="family-name" placeholder="Smith" />
+            <span class="form__error" id="lastNameError" role="alert"></span>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email">Email Address <span aria-hidden="true">*</span></label>
+          <input class="form__input" type="email" id="email" name="email" required autocomplete="email" placeholder="john@example.com" />
+          <span class="form__error" id="emailError" role="alert"></span>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="phone">Phone Number</label>
+          <input class="form__input" type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(416) 555-0123" />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="service">Service Required <span aria-hidden="true">*</span></label>
+          <select class="form__input form__select" id="service" name="service" required>
+            <option value="" disabled selected>Select a service…</option>
+            <option value="cabinetry">Custom Cabinetry</option>
+            <option value="flooring">Hardwood Flooring</option>
+            <option value="stairs">Stairs &amp; Railings</option>
+            <option value="furniture">Custom Furniture</option>
+            <option value="renovation">Home Renovation</option>
+            <option value="repair">Repairs &amp; Restoration</option>
+            <option value="other">Other</option>
+          </select>
+          <span class="form__error" id="serviceError" role="alert"></span>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="message">Tell Us About Your Project <span aria-hidden="true">*</span></label>
+          <textarea class="form__input form__textarea" id="message" name="message" required rows="4" placeholder="Describe your project, timeline, and any specific requirements…"></textarea>
+          <span class="form__error" id="messageError" role="alert"></span>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+          <span class="btn__text">Send Message</span>
+          <span class="btn__spinner" aria-hidden="true"></span>
+        </button>
+
+        <p class="form__note">We'll respond within one business day. Your information is never shared.</p>
+        <div class="form__success" id="formSuccess" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="logo logo--light" aria-label="AA Carpentry home">
+          <span class="logo__icon">
+            <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect width="36" height="36" rx="4" fill="#8B5E3C"/>
+              <path d="M8 26L18 10L28 26" stroke="#F5ECD7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 20H24" stroke="#F5ECD7" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="logo__text">AA <strong>Carpentry</strong></span>
+        </a>
+        <p class="footer__tagline">Craftsmanship that endures.<br/>Service you can trust.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="footer__social-link" aria-label="Houzz">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 2L4 8v14h6v-6h4v6h6V8L12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <h3 class="footer__heading">Quick Links</h3>
+        <ul role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__services">
+        <h3 class="footer__heading">Services</h3>
+        <ul role="list">
+          <li><a href="#services">Custom Cabinetry</a></li>
+          <li><a href="#services">Hardwood Flooring</a></li>
+          <li><a href="#services">Stairs &amp; Railings</a></li>
+          <li><a href="#services">Custom Furniture</a></li>
+          <li><a href="#services">Home Renovations</a></li>
+          <li><a href="#services">Repairs &amp; Restoration</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h3 class="footer__heading">Contact</h3>
+        <address>
+          <p>Greater Toronto Area, Ontario</p>
+          <p><a href="mailto:info@aacarpentry.ca">info@aacarpentry.ca</a></p>
+          <p><a href="tel:+14165550123">(416) 555-0123</a></p>
+        </address>
+        <div class="footer__cert">
+          <span class="footer__badge">✓ Licensed &amp; Insured</span>
+          <span class="footer__badge">✓ 5-Year Warranty</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year"></span> AA Carpentry. All rights reserved.</p>
+        <p>Serving Toronto, Mississauga, Vaughan, Oakville &amp; surrounding areas</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M10 16V4M4 10l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
